@@ -47,6 +47,7 @@ $(window).on('load', function() {
 		stagePadding: 40,
 		items: 5,
 		autoplay: false,
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		margin: 10,
 		responsive:{
 			0:{
@@ -79,6 +80,7 @@ $(window).on('load', function() {
 		mouseDrag: false,
 		animateOut: 'fadeOut',
     	animateIn: 'fadeIn',
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		items: 1,
 		autoplay: true
 	});
@@ -111,6 +113,106 @@ $(window).on('load', function() {
 	$('.grid').masonry({
 		// options
 		itemSelector: '.grid-item',
+	});
+	//scroll to section
+	$(document).on('click', 'a.scroll[href^="#"]', function(e) {
+		// target element id
+		var id = $(this).attr('href');
+
+		// target element
+		var $id = $(id);
+		if ($id.length === 0) {
+			return;
+		}
+		// prevent standard hash navigation (avoid blinking in IE)
+		e.preventDefault();
+		// top position relative to the document
+		var pos = $id.offset().top;
+		// animated top scrolling
+		$('body, html').animate({scrollTop: pos}, 1000);
+	});
+	// MODAL LOGIN
+
+
+	$('.sign-in-modal').click(function(e) {
+		e.preventDefault();
+		$('.sign-in-modal').removeClass('active');
+		$('.inner--sign-in-modal').removeClass('active');
+	});
+
+	$('.inner--sign-in-modal').click(function(e){
+		e.stopPropagation();
+	})
+
+	$('.close-login').click(function(e){
+		e.preventDefault();
+		$('.sign-in-modal').removeClass('active');
+
+		$('.inner--sign-in-modal').removeClass('active');
+	})
+
+	/* MODAL */
+	$('.modal-sign').click(function(e){
+		e.preventDefault();
+		$('.sign-in-modal').addClass('active');
+		$('.inner--sign-in-modal').addClass('active');
+		setTimeout(function(){
+			$('.overlay').removeClass('sign-up-side');
+			$('.overlay').addClass('sign-in-side');
+			$('.tab-sign-up').removeClass('active');
+			$('.tab-sign-in').addClass('active');
+			$('.content-sign-up').removeClass('active');
+			$('.content-sign-in').addClass('active');
+		}, 400);
+	});
+
+	$('.inner--sign-in-modal .close-modal').click(function(e){
+		e.preventDefault();
+		$('.sign-in-modal').removeClass('active');
+		$('.inner--sign-in-modal').removeClass('active');
+	});
+
+	$('.val-info .tab').click(function(e){
+		e.preventDefault();
+		if($(this).hasClass('tab-sign-in') == true){
+			$('.overlay').removeClass('sign-up-side');
+			$('.overlay').addClass('sign-in-side');
+			$('.tab-sign-up').removeClass('active');
+			$('.tab-sign-in').addClass('active');
+			$('.content-sign-up').removeClass('active');
+			$('.content-sign-in').addClass('active');
+		} else {
+			$('.overlay').removeClass('sign-in-side');
+			$('.overlay').addClass('sign-up-side');
+			$('.tab-sign-in').removeClass('active');
+			$('.tab-sign-up').addClass('active');
+			$('.content-sign-in').removeClass('active');
+			$('.content-sign-up').addClass('active');
+		}
+	});
+
+	//Greetings
+	$('.input-firstname').keyup(function(){
+		var getText = $(this).val();
+		console.log(getText);
+		$('.greetings-name').html(getText);
+	});
+
+	$('.input-lastname').keyup(function(){
+		var getText = $(this).val();
+		console.log(getText);
+		$('.greetings-surname').html(getText);
+	});
+	//play game
+	$('#play').click(function(event){
+		event.preventDefault();
+		var $this = $(this);
+		var url = $this.data('url')
+		//var url = $(this).html(); //this will not work
+		$(".game-thumb").html('<iframe width="100%" height="100%" src="'+ url +'" frameborder="0" allowfullscreen></iframe>');
+		$(this).hide();
+		//$('video-poster').css('z-index','-1');
+
 	});
 })(jQuery);
 

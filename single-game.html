@@ -36,56 +36,67 @@
 <header class="header-section">
     <div class="container">
         <!-- logo -->
-        <a class="site-logo" href="index.html">
-            <img src="img/logo.png" alt="">
-        </a>
-        <div class="user-panel">
-            <a href="#">Login</a> / <a href="#">Register</a>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <a class="site-logo" href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 col-6 text-right">
+
+                <!-- responsive -->
+                <div class="nav-switch">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <!-- site menu -->
+                <nav class="main-menu ml-auto mr-0">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="categories.html">Games</a></li>
+
+
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3 d-flex align-items-center">
+                <div class="user-panel">
+                    <a href="#game-plans" class="scroll">Get Started</a>
+                </div>
+                &nbsp; / &nbsp;<a href="#" class="modal-sign"> Login</a>
+            </div>
         </div>
-        <!-- responsive -->
-        <div class="nav-switch">
-            <i class="fa fa-bars"></i>
-        </div>
-        <!-- site menu -->
-        <nav class="main-menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="categories.html">Games</a></li>
 
 
 
-            </ul>
-        </nav>
+
     </div>
 </header>
 <!-- Header section end -->
-
-
-<!-- Latest news section -->
-<div class="latest-news-section">
-    <div class="vgm-title">Latest News</div>
-    <div class="news-ticker">
-        <div class="news-ticker-contant">
-            <div class="nt-item"><span class="new">new</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-            <div class="nt-item"><span class="strategy">strategy</span>Isum dolor sit amet, consectetur adipiscing elit.
-            </div>
-            <div class="nt-item"><span class="racing">racing</span>Isum dolor sit amet, consectetur adipiscing elit.
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Latest news section end -->
 <!-- Page section -->
-<section class="page-section single-game-page section-padding pt-0">
-    <div class="game-frame">
+<section class="page-section single-game-page section-padding pt-0 setBackground">
+    <div class="game-frame setBackground" data-setbg="img/army.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 game-details">
                     <div class="game-thumb setBackground" data-setbg="img/play.jpg">
-                        <div class="vgp-extra">
+                        <svg version="1.1" id="play" data-url="https://www.youtube.com/embed/qjPFcv-O2yM" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px"
+                             viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+  <path class="stroke-solid" fill="none" stroke="white" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+    C97.3,23.7,75.7,2.3,49.9,2.5"/>
+                            <path class="stroke-dotted" fill="none" stroke="white" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+    C97.3,23.7,75.7,2.3,49.9,2.5"/>
+                            <path class="icon" fill="white"
+                                  d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+</svg>
+                    </div>
+                    <div class="vgp-extra game-bar">
+                        <div class="left-side-control">
                             <div class="vgp-star"><img src="img/icons/star.png" alt=""></div>
                             <div class="vgp-heart"><img src="img/icons/heart.png" alt=""></div>
+                        </div>
+                        <div class="right-side-control">
                         </div>
                     </div>
                 </div>
@@ -209,8 +220,10 @@
             <div class="col-lg-4">
                 <div class="footer-logo text-white">
                     <img src="img/footer-logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit
+                        amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit
+                        amet, consectetur adipisc ing ipsum dolor sit ame.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -251,28 +264,28 @@
                         <div class="tc-item">
                             <div class="tc-thumb setBackground" data-setbg="img/authors/1.jpg"></div>
                             <div class="tc-content">
-                                <p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
+                                <p><a href="#">James Smith</a> <span>on</span> Lorem ipsum dolor sit amet, co</p>
                                 <div class="tc-date">June 21, 2018</div>
                             </div>
                         </div>
                         <div class="tc-item">
                             <div class="tc-thumb setBackground" data-setbg="img/authors/2.jpg"></div>
                             <div class="tc-content">
-                                <p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
+                                <p><a href="#">James Smith</a> <span>on</span> Lorem ipsum dolor sit amet, co</p>
                                 <div class="tc-date">June 21, 2018</div>
                             </div>
                         </div>
                         <div class="tc-item">
                             <div class="tc-thumb setBackground" data-setbg="img/authors/3.jpg"></div>
                             <div class="tc-content">
-                                <p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
+                                <p><a href="#">James Smith</a> <span>on</span> Lorem ipsum dolor sit amet, co</p>
                                 <div class="tc-date">June 21, 2018</div>
                             </div>
                         </div>
                         <div class="tc-item">
                             <div class="tc-thumb setBackground" data-setbg="img/authors/4.jpg"></div>
                             <div class="tc-content">
-                                <p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
+                                <p><a href="#">James Smith</a> <span>on</span> Lorem ipsum dolor sit amet, co</p>
                                 <div class="tc-date">June 21, 2018</div>
                             </div>
                         </div>
@@ -293,16 +306,90 @@
             <li><a href="categories.html">Games</a></li>
 
 
-
         </ul>
         <p class="copyright">
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+            All rights reserved
 
         </p>
     </div>
 </footer>
 <!-- Footer section end -->
+<!-- MODAL LOGIN -->
+<div class="sign-in-modal">
+    <div class="inner--sign-in-modal">
+        <div class="val-info">
+            <span class="overlay sign-in-side"></span>
+            <div class="tab tab-sign-in active">
+                Login
+            </div>
+            <div class="tab tab-sign-up">
+                Register
+            </div>
+        </div>
+        <div class="content-info">
+            <div class="content-sign-in">
+                <div class="wrap--content-sign-in">
+                    <div class="greetings">
+                        Welcome back
+                    </div>
 
+                    <form class="" action="index.html" method="post">
+
+                        <div class="input-control">
+                            <input type="text" name="" value="" placeholder="Email">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="" value="" placeholder="Password">
+                        </div>
+                        <button type="submit" name="button"> Login </button>
+                    </form>
+
+                    <!-- <div class="close-login">
+                      Sair <span>[</span><span>x</span><span>]</span>
+                    </div> -->
+
+                </div>
+            </div>
+            <div class="content-sign-up">
+                <div class="wrap--content-sign-up">
+                    <div class="greetings">
+                        Welcome Mr(s) <span class="greetings-name"></span> <span class="greetings-surname"></span>
+                    </div>
+
+                    <form class="" action="index.html" method="post">
+                        <div class="input-control">
+                            <input type="text" name="" value="" class="input-firstname" placeholder="First Name">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="" value="" class="input-lastname" placeholder="Last Name">
+                        </div>
+                        <div class="input-control">
+                            <select name="" id="">
+                                <option value="">Select Plan</option>
+                                <option value="">Free Plan</option>
+                                <option value="">Basic</option>
+                                <option value="">Pro</option>
+                            </select>
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="" value="" placeholder="Email">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="" value="" placeholder="Password">
+                        </div>
+                        <button type="submit" name="button"> Register </button>
+                    </form>
+
+                    <!-- <div class="close-login">
+                      Sair <span>[</span><span>x</span><span>]</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MODAL LOGIN -->
 <!--====== Javascripts & Jquery ======-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -37,12 +37,12 @@
 		<div class="container">
 			<!-- logo -->
 			<div class="row">
-				<div class="col-md-3 col-6">
+				<div class="col-md-3">
 					<a class="site-logo" href="index.html">
 						<img src="img/logo.png" alt="">
 					</a>
 				</div>
-				<div class="col-md-6 col-6 text-right">
+				<div class="col-md-6 text-right">
 
 					<!-- responsive -->
 					<div class="nav-switch">
@@ -60,10 +60,17 @@
 					</nav>
 				</div>
 				<div class="col-md-3 d-flex align-items-center">
-					<div class="user-panel">
-						<a href="#game-plans" class="scroll">Get Started</a>
+					<div class="dropdown show">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Welcome, User
+						</a>
+
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">Edit Profile</a>
+							<a class="dropdown-item" href="#">Favourite Games</a>
+							<a class="dropdown-item" href="#">Logout</a>
+						</div>
 					</div>
-					&nbsp; / &nbsp;<a href="#" class="modal-sign"> Login</a>
 				</div>
 			</div>
 
@@ -108,134 +115,100 @@
 		</div>
 	</section>
 	<!-- Hero section end -->
-	<!-- Our Plans -->
-	<section id="game-plans" class="section-padding setBackground" data-setbg="img/army.png">
 
-		<!-- Pricing # -->
-		<div class="pricing">
-			<div class="container">
-				<div class="section-title">
-					<h2>Best Plans <span>Choose One</span></h2>
-				</div>
-				<div class="pricing-table table-responsive">
-					<table class="table">
-						<!-- Heading -->
-						<thead>
-						<tr>
-							<th>&nbsp;</th>
-							<th>
-								Free
-								<span class="ptable-star red">
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star-half-o"></i>
-  										<i class="fa fa-star-o"></i>
-  									</span>
-								<span class="ptable-price">$0.0</span>
-							</th>
-							<th class="highlight">
-								Basic
-								<span class="ptable-star ">
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star-o"></i>
-  									</span>
-								<span class="ptable-price">$99.0</span>
-							</th>
-							<th>
-								Pro
-								<span class="ptable-star">
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  										<i class="fa fa-star"></i>
-  									</span>
-								<span class="ptable-price">$149.0</span>
-							</th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr>
-							<td><span class="ptable-title"><i class="fa fa-gamepad"></i> Games</span></td>
-							<td>
-								<!-- Icon -->
-								<i class="fa fa-gamepad "></i>
-								100 +
-							</td>
-							<td>
-								<!-- Icon -->
-								<i class="fa fa-gamepad"></i>
-								500 +
-							</td>
-							<td>
-								<!-- Icon -->
-								<i class="fa fa-gamepad "></i>
-								Unlimited
-							</td>
-						</tr>
-						<tr>
-							<td><span class="ptable-title"><i class="fa fa-clock-o"></i> Duration</span></td>
-							<td>
-								<i class="fa fa-clock-o "></i>
-								30 Days
-							</td>
-							<td>
-								<i class="fa fa-clock-o "></i>
-								3 Months
-							</td>
-							<td>
-								<i class="fa fa-clock-o "></i>
-								1 Year
-							</td>
-						</tr>
-						<tr>
-							<td><span class="ptable-title"><i class="fa fa-refresh"></i> Type</span></td>
-							<td>
-								<i class="fa fa-refresh "></i>
-								One Time
-							</td>
-							<td>
-								<i class="fa fa-refresh "></i>
-								Rucurring
-							</td>
-							<td>
-								<i class="fa fa-refresh "></i>
-								Recurring
-							</td>
-						</tr>
-						<tr>
-							<td><span class="ptable-title"><i class="fa fa-headphones"></i> Support</span></td>
-							<td>
-								<i class="fa fa-times "></i>
-								No Support
-							</td>
-							<td>
-								<i class="fa fa-phone "></i>
-								Phone
-							</td>
-							<td>
-								<i class="fa fa-envelope-o "></i>
-								E-mail / Phone
-							</td>
-						</tr>
-						<!-- Buttons -->
-						<tr>
-							<td>&nbsp;</td>
-							<td class="bg-"><a class="btn modal-sign" href="#">Sign Up</a></td>
-							<td class="bg-red"><a class="btn modal-sign" href="#">Sign Up</a></td>
-							<td class="bg-"><a class="btn modal-sign" href="#">Sign Up</a></td>
-						</tr>
-						</tbody>
-					</table>
+
+	<!-- Latest news section -->
+	<div class="latest-news-section">
+		<div class="vgm-title">Trending Games</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">new</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+				<div class="nt-item"><span class="strategy">strategy</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
+				<div class="nt-item"><span class="racing">racing</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
+			</div>
+		</div>
+	</div>
+	<!-- Latest news section end -->
+
+
+	<!-- Feature section -->
+	<section class="feature-section section-padding setBackground" data-setbg="img/stars.png">
+		<div class="container-fluid">
+			<div class="section-title">
+
+				<h2>Loved games <span>Popular</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="featured-carousel owl-carousel">
+					<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+						<div class="vgpm-content text-white">
+							<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+
+						</div>
+					</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/3.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/4.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/3.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/4.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- plans end -->
+	<!-- Feature section end -->
 	<!-- Filter Games Start-->
 	<section class="setBackground section-padding" data-setbg="img/dark-bg.jpg">
 		<div class="container-fluid">
@@ -375,6 +348,147 @@
 	<!-- Filter Games End -->
 
 	<!-- Feature section -->
+	<section class="feature-section section-padding setBackground" data-setbg="img/army.png">
+		<div class="container-fluid">
+			<div class="section-title">
+
+				<h2>Loved games <span>Popular</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="featured-carousel owl-carousel">
+						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/3.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/4.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/3.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/4.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
+							</div>
+						</div>
+						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
+
+							<div class="vgpm-content text-white">
+								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature section end -->
+
+
+	<!-- Recent game section  -->
+	<section class="recent-game-section section-padding setBackground" data-setbg="img/ch-5.png">
+		<div class="container">
+			<div class="section-title">
+				<div class="game-cats new">new</div>
+				<h2>Recent Games<span>New games</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="vgp-thumb setBackground" data-setbg="img/recent-game/1.jpg">
+							<div class="game-cats new">new</div>
+						</div>
+						<div class="vgp-content">
+							<h5>Suspendisse ut justo tem por, rutrum</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
+
+							<div class="vgp-extra">
+								<div class="vgp-star"><img src="img/icons/star.png" alt=""></div>
+								<div class="vgp-heart"><img src="img/icons/heart.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="vgp-thumb setBackground" data-setbg="img/recent-game/2.jpg">
+							<div class="game-cats racing">racing</div>
+						</div>
+						<div class="vgp-content">
+							<h5>Susce pulvinar metus nulla, vel  facilisis sem </h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
+
+							<div class="vgp-extra">
+								<div class="vgp-star"><img src="img/icons/star.png" alt=""></div>
+								<div class="vgp-heart"><img src="img/icons/heart.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="vgp-thumb setBackground" data-setbg="img/recent-game/3.jpg">
+							<div class="game-cats adventure">Adventure</div>
+						</div>
+						<div class="vgp-content">
+							<h5>Suspendisse ut justo tem por, rutrum</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
+
+							<div class="vgp-extra">
+								<div class="vgp-star"><img src="img/icons/star.png" alt=""></div>
+								<div class="vgp-heart"><img src="img/icons/heart.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Recent game section end -->
+
+	<!-- Feature section -->
 	<section class="feature-section section-padding setBackground" data-setbg="img/back-city.png">
 		<div class="container-fluid">
 			<div class="section-title">
@@ -422,30 +536,49 @@
 								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
 							</div>
 						</div>
-						<div class="feature-item setBackground" data-setbg="img/features/1.jpg">
-
-							<div class="vgpm-content text-white">
-								<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
-
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature section end -->
+	<!-- Tournaments section -->
+	<section class="tournaments-section section-padding">
+		<div class="container">
+			<div class="tournament-title">Tournaments</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="tournament-item mb-4 mb-lg-0">
+						<div class="vgm-notic">Premium Tournament</div>
+						<div class="vgm-content">
+							<div class="vgm-thumb setBackground" data-setbg="img/tournament/1.jpg"></div>
+							<div class="vgm-text">
+								<h4>World Of WarCraft</h4>
+								<ul>
+									<li><span>Tournament Beggins:</span> June 20, 2018</li>
+									<li><span>Tounament Ends:</span> July 01, 2018</li>
+									<li><span>Participants:</span> 10 teams</li>
+									<li><span>Tournament Author:</span> Admin</li>
+								</ul>
+								<p><span>Prizes:</span> 1st place $2000, 2nd place: $1000, 3rd place: $500</p>
 							</div>
 						</div>
-						<div class="feature-item setBackground" data-setbg="img/features/2.jpg">
-
-							<div class="vgpm-content text-white">
-								<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
-
-							</div>
-						</div>
-						<div class="feature-item setBackground" data-setbg="img/features/3.jpg">
-
-							<div class="vgpm-content text-white">
-								<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
-							</div>
-						</div>
-						<div class="feature-item setBackground" data-setbg="img/features/4.jpg">
-
-							<div class="vgpm-content text-white">
-								<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="tournament-item">
+						<div class="vgm-notic">Premium Tournament</div>
+						<div class="vgm-content">
+							<div class="vgm-thumb setBackground" data-setbg="img/tournament/2.jpg"></div>
+							<div class="vgm-text">
+								<h4>DOOM</h4>
+								<ul>
+									<li><span>Tournament Beggins:</span> June 20, 2018</li>
+									<li><span>Tounament Ends:</span> July 01, 2018</li>
+									<li><span>Participants:</span> 10 teams</li>
+									<li><span>Tournament Author:</span> Admin</li>
+								</ul>
+								<p><span>Prizes:</span> 1st place $2000, 2nd place: $1000, 3rd place: $500</p>
 							</div>
 						</div>
 					</div>
@@ -453,7 +586,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- Feature section end -->
+	<!-- Tournaments section bg -->
+
+
 	<!-- Review section -->
 	<section class="review-section section-padding setBackground" data-setbg="img/ch-2.png">
 		<div class="container">
@@ -615,85 +750,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!-- Footer section end -->
-	<!-- MODAL LOGIN -->
-	<div class="sign-in-modal">
-		<div class="inner--sign-in-modal">
-			<div class="val-info">
-				<span class="overlay sign-in-side"></span>
-				<div class="tab tab-sign-in active">
-					Login
-				</div>
-				<div class="tab tab-sign-up">
-					Register
-				</div>
-			</div>
-			<div class="content-info">
-				<div class="content-sign-in">
-					<div class="wrap--content-sign-in">
-						<div class="greetings">
-							Welcome back
-						</div>
-
-						<form class="" action="index.html" method="post">
-
-							<div class="input-control">
-								<input type="text" name="" value="" placeholder="Email">
-							</div>
-							<div class="input-control">
-								<input type="text" name="" value="" placeholder="Password">
-							</div>
-							<button type="submit" name="button"> Login </button>
-						</form>
-
-						<!-- <div class="close-login">
-                          Sair <span>[</span><span>x</span><span>]</span>
-                        </div> -->
-
-					</div>
-				</div>
-				<div class="content-sign-up">
-					<div class="wrap--content-sign-up">
-						<div class="greetings">
-							Welcome Mr(s) <span class="greetings-name"></span> <span class="greetings-surname"></span>
-						</div>
-
-						<form class="" action="index.html" method="post">
-							<div class="input-control">
-								<input type="text" name="" value="" class="input-firstname" placeholder="First Name">
-							</div>
-							<div class="input-control">
-								<input type="text" name="" value="" class="input-lastname" placeholder="Last Name">
-							</div>
-							<div class="input-control">
-								<select name="" id="">
-									<option value="">Select Plan</option>
-									<option value="">Free Plan</option>
-									<option value="">Basic</option>
-									<option value="">Pro</option>
-								</select>
-							</div>
-							<div class="input-control">
-								<input type="text" name="" value="" placeholder="Email">
-							</div>
-							<div class="input-control">
-								<input type="text" name="" value="" placeholder="Password">
-							</div>
-							<button type="submit" name="button"> Register </button>
-						</form>
-
-						<!-- <div class="close-login">
-                          Sair <span>[</span><span>x</span><span>]</span>
-                        </div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- MODAL LOGIN -->
 
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.marquee.min.js"></script>
