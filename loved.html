@@ -36,10 +36,11 @@
     <div class="container-sidebar">
         <div class="user-panel">
             <div class="panel-items">
-                <div class="user"><img src="img/avatar.svg" alt="profile"></div>
-                <div class="collection"><img src="img/heart.svg" alt="collection"></div>
-                <div class="settings"><img src="img/settings.svg" alt="settings"></div>
-                <div class="signout"><img src="img/logout.svg" alt="logout"></div>
+                <div class="user"><a href="dashboard.html" data-toggle="tooltip" data-placement="top" title="Profile"><img src="img/avatar.svg" alt="profile" ></a></div>
+                <div class="packages"><a href="packages.html" data-toggle="tooltip" data-placement="top" title="Profile"><img src="img/package.svg" alt="profile"></a></div>
+                <div class="collection"><a href="loved.html" data-toggle="tooltip" data-placement="top" title="Profile"><img src="img/heart.svg" alt="collection"></a></div>
+                <div class="settings"><a href="dashboard.html" data-toggle="tooltip" data-placement="top" title="Profile"><img src="img/settings.svg" alt="settings"></a></div>
+                <div class="signout"><a href="login.html" data-toggle="tooltip" data-placement="top" title="Profile"><img src="img/logout.svg" alt="logout"></a></div>
             </div>
         </div>
         <form id="game-search" method="post" actio="">
@@ -93,6 +94,47 @@
             </div>
             <!-- another list -->
             <h2 class="small-heading">Recent Played</h2>
+            <div class="container-fluid pr-0 pl-0 mt-3">
+                <div class="row no-gutters">
+                    <div class="col-md-2 col-4">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-24.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-27.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-19.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-20.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="small-heading">Popular Categories <a href="category.html">View All</a></h2>
             <div class="container-fluid pr-0 pl-0 mt-3">
                 <div class="row no-gutters">
                     <div class="col-md-2 col-4">
@@ -242,328 +284,13 @@
                             </div>
                         </a>
                     </div>
-                    <div class="grid-item col-12 col-lg-9 col-md-9">
-
-                            <div class="item play" id="fullScreen">
-                                <div class="img"
-                                     style="background:#000">
-                                    <iframe id="gameFrame" src="https://cdn.htmlgames.com/KingsGold/index.html?npa=0" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay"></iframe>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-                                    <div class="screen-option">
-                                        <div class="share-link screen-item"><i class="fa fa-share-alt"></i></div>
-                                        <div class="add-to-list screen-item"><i class="fa fa-heart-o"></i></div>
-                                        <div class="full-screen screen-item"><i class="fa fa-expand"></i></div>
-                                    </div>
-
-                                </div>
-                            </div>
-                    </div>
                     <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-4.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
+                        <div class="item search-bar">
+                            <div class="content-1">
+                                <h2 class="page-title">Play Later</h2>
 
-                                </div>
                             </div>
-                        </a>
-                    </div>
-
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-25.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-21.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-22.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-23.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-24.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-27.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-29.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-17.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-18.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-15.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-12.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-13.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-23.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-19.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-14.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-20.webp)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-3.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-4.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-5.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-1.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-2.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-3.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-4.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-item col-3 col-lg-1 col-md-1">
-                        <a href="single-game.html">
-                            <div class="item">
-                                <div class="img"
-                                     style="background-image: url(img/g-5.jpg)"></div>
-                                <div class="content">
-                                    <h6 class="title">Wasteland</h6>
-
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
 
                 </div>
@@ -572,6 +299,171 @@
     </div>
 </section>
 <!-- Filter Games End -->
+<!-- category list -->
+<section id="categories" class="games-list">
+    <div class="container-fluid mt-3">
+        <div class="row no-gutters">
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-4.jpg)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-3.jpg)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-6.jpg)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-8.jpg)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-24.webp)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-13.webp)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-3">
+                <div class="item">
+                    <div class="img" style="background-image: url(img/g-21.webp)"></div>
+                    <a href="#" class="remove-item"><i class="fa fa-times"></i></a>
+                    <div class="content">
+                        <h6 class="title">Wasteland</h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- category list -->
+<section id="populartags" class="mt-5">
+    <div class="container-fluid pl-2 pr-2">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="small-heading mb-3">
+                    <h2 class="text-small text-white">Categories</h2>
+                </div>
+                <div class="owl-carousel list-icons-carousel">
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-4.jpg)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-7.jpg)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-9.jpg)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-12.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-14.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-16.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-21.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-list">
+                        <div class="item">
+                            <div class="img" style="background-image: url(img/g-25.webp)"></div>
+                            <div class="content">
+                                <h6 class="title">Wasteland</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Page section -->
 <section id="populartags">
     <div class="container-fluid pl-2 pr-2">
@@ -680,141 +572,19 @@
     </div>
 </section>
 <!-- Page section end -->
-
-<!-- Feature section -->
-<section id="populartags" class="mt-5">
-    <div class="container-fluid pl-2 pr-2">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="small-heading mb-3">
-                    <h2 class="text-small text-white">Categories</h2>
-                </div>
-                <div class="owl-carousel list-icons-carousel">
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-4.jpg)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-7.jpg)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-9.jpg)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-12.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-14.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-16.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-21.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-25.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-26.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-27.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-28.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="games-list">
-                        <div class="item">
-                            <div class="img" style="background-image: url(img/g-18.webp)"></div>
-                            <div class="content">
-                                <h6 class="title">Wasteland</h6>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Footer section -->
 <footer class="footer-section mt-5">
     <div class="container-fluid text-center pb-5">
+
         <p class="copyright float-none mb-3">
             Copyright &copy;<script>document.write(new Date().getFullYear());</script>
             All rights reserved
+
         </p>
         <ul class="footer-menu float-none">
             <li><a href="index.html">Privacy</a></li>
             <li><a href="categories.html">Policy</a></li>
+
+
         </ul>
     </div>
 </footer>
@@ -837,6 +607,7 @@
                     <div class="greetings">
                         Welcome back
                     </div>
+
                     <form class="" action="index.html" method="post">
 
                         <div class="input-control">
@@ -847,6 +618,11 @@
                         </div>
                         <button type="submit" name="button"> Login </button>
                     </form>
+
+                    <!-- <div class="close-login">
+                      Sair <span>[</span><span>x</span><span>]</span>
+                    </div> -->
+
                 </div>
             </div>
             <div class="content-sign-up">

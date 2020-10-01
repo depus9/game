@@ -37,6 +37,69 @@ $(window).on('load', function() {
 /*
 * Featured awesome
 * */
+	$('.tags-carousel').owlCarousel({
+		loop: false,
+		nav: true,
+		dots: false,
+		mouseDrag: false,
+		stagePadding: 0,
+		items: 5,
+		autoplay: false,
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+		margin: 10,
+		responsive:{
+			0:{
+				items:2,
+				nav:true
+			},
+			600:{
+				items:3,
+				nav:true
+			},
+			1000:{
+				items:7,
+				nav:true,
+				loop:false
+			},
+			1500:{
+				items:9,
+				nav:true,
+				loop:false
+			}
+		}
+	});$('.list-icons-carousel').owlCarousel({
+		loop: false,
+		nav: true,
+		dots: false,
+		mouseDrag: false,
+		stagePadding: 0,
+		items: 5,
+		autoplay: false,
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+		margin: 10,
+		responsive:{
+			0:{
+				items:4,
+				nav:true,
+				mouseDrag: true,
+			},
+			600:{
+				items:5,
+				nav:true,
+				mouseDrag: true,
+			},
+			1000:{
+				items:7,
+				nav:true,
+				loop:false
+			},
+			1500:{
+				items:9,
+				nav:true,
+				loop:false
+			}
+		}
+	});
 	$('.featured-carousel').owlCarousel({
 		loop: false,
 		nav: true,
@@ -113,6 +176,7 @@ $(window).on('load', function() {
 	$('.grid').masonry({
 		// options
 		itemSelector: '.grid-item',
+		percentPosition: true
 	});
 	//scroll to section
 	$(document).on('click', 'a.scroll[href^="#"]', function(e) {
@@ -132,7 +196,15 @@ $(window).on('load', function() {
 		$('body, html').animate({scrollTop: pos}, 1000);
 	});
 	// MODAL LOGIN
-
+$(window).scroll(function(){
+	var $this = $(this);
+	var scrollpos = $this.scrollTop();
+	if(scrollpos > 100){
+		$('.sticky-item').addClass('showup');
+	}else{
+		$('.sticky-item').removeClass('showup');
+	}
+})
 
 	$('.sign-in-modal').click(function(e) {
 		e.preventDefault();
@@ -194,15 +266,23 @@ $(window).on('load', function() {
 	//Greetings
 	$('.input-firstname').keyup(function(){
 		var getText = $(this).val();
-		console.log(getText);
 		$('.greetings-name').html(getText);
 	});
 
 	$('.input-lastname').keyup(function(){
 		var getText = $(this).val();
-		console.log(getText);
 		$('.greetings-surname').html(getText);
 	});
+	$(document).on('click','.search-bar, .sticky-item', function(e){
+		e.preventDefault();
+$('#sideBarItem').addClass('openIt');
+$('.sticky-item').addClass('moveright')
+	})
+	$(document).on('click','.hideSidebar, .sidebar-overlay', function(e){
+		$('#sideBarItem').removeClass('openIt');
+		$('.sticky-item').removeClass('moveright')
+		e.preventDefault();
+	})
 	//play game
 	$('#play').click(function(event){
 		event.preventDefault();
@@ -213,6 +293,102 @@ $(window).on('load', function() {
 		$(this).hide();
 		//$('video-poster').css('z-index','-1');
 
+	});
+	//hover addvideo
+	$(document).on('mouseenter','.grid-item .item', function(){
+	})
+	//fullscreen game window
+	let fullScreen = false;
+	$(document).on('click','.full-screen', function(){
+		if(fullScreen){
+			fullScreen = false;
+			closeFullscreen()
+		}else{
+			openFullscreen();
+			fullScreen = true;
+		}
+
+	})
+	var elem = document.getElementById('fullScreen');
+	function openFullscreen() {
+		if (elem.requestFullscreen) {
+			elem.requestFullscreen();
+		} else if (elem.mozRequestFullScreen) { /* Firefox */
+			elem.mozRequestFullScreen();
+		} else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+			elem.webkitRequestFullscreen();
+		} else if (elem.msRequestFullscreen) { /* IE/Edge */
+			elem.msRequestFullscreen();
+		}
+	}
+
+	function closeFullscreen() {
+		if (document.exitFullscreen) {
+			document.exitFullscreen();
+		} else if (document.mozCancelFullScreen) {
+			document.mozCancelFullScreen();
+		} else if (document.webkitExitFullscreen) {
+			document.webkitExitFullscreen();
+		} else if (document.msExitFullscreen) {
+			document.msExitFullscreen();
+		}
+	}
+	//search payment methods
+	$(document).on('keyup change', '#searchpayment', function(){
+		var $this = $(this);
+		var searchfor = $this.val().toUpperCase();
+		$('.paymentoption').hide();
+		$('.paymentoption').each(function(){
+
+			var title = $(this).find('h2').text().toUpperCase();
+			if(title.includes(searchfor)){
+				$(this).show();
+
+			}
+		})
+	});
+	//select payment type
+	$(document).on('click', '.select-method', function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var showMethod = $this.data('method');
+		$('.selectedPayment').removeClass('selectedPayment')
+		$('.activePayment').removeClass('activePayment')
+		$this.addClass('selectedPayment')
+		$(showMethod).addClass('activePayment')
+	})
+	//go back
+	$(document).on('click', '#goBack', function(e){
+		e.preventDefault();
+		window.history.back(1);
+	})
+	//package filter
+	$(document).on('click','.package-filter a', function(e){
+		e.preventDefault();
+		var $this = $(this);
+		$('.showPackage').removeClass('showPackage');
+		$this.addClass('showPackage');
+		var showPackage = $this.data('package');
+		$(showPackage).addClass('showPackage');
+
+	})
+		$(document).on('click','.showPackageDetails', function(){
+			var $this = $(this);
+			var showPaackage = $this.data('details')
+			if(!$(showPaackage).is(':visible')){
+				$('.packageDetails').slideUp();
+				$('.showMyPackage').removeClass('showMyPackage')
+			}
+
+			$(showPaackage).slideToggle();
+			$this.toggleClass('showMyPackage');
+		})
+	//tooltip
+	$('[data-toggle="tooltip"]').tooltip()
+	//full page landing
+	$('#game-landing').fullpage({
+		scrollBar: true,
+		navigation: true
 	});
 })(jQuery);
 
