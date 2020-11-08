@@ -2686,5 +2686,16 @@ html.fp-enabled,
 
   .paymentoption i {
     font-size: 22px; } }
-
+    .ajax-loading-item{
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.8);
+      height: 100vh;
+      width: 100%;
+      z-index: 999999999;
+    }
 /*# sourceMappingURL=style.css.map */
