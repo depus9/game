@@ -3372,6 +3372,49 @@ html.fp-enabled,
     margin-bottom: 20px;
   }
 }
+.channels-card {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 2px;
+  box-shadow: 0 0 11px rgba(34,34,34,0.25);
+  padding: 24px 12px;
+  position: relative;
+  text-align: center;
+  transition-duration: 0.4s;
+  a {
+    color: #1b1e24;
+    font-weight: 500;
+    text-decoration: none;
+    font-weight: 400;
+}
+.channels-view {
+  color: #acacac;
+  font-size: 13px;
+}
+.btn {
+  font-size: 12px;
+  padding: 3px 25px;
+  line-height: 25px;
+    height: auto;
+    font-weight: 600;
+    margin: 10px 0;
+    &:hover{
+      background: #fff;
+      border-color: #da332e;
+      color: #da332e;
+    }
+}
+.channels-card-image img {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50px;
+  box-shadow: 0 0 2px #ccc;
+  height: 80px;
+  margin: 1px 0 8px;
+  object-fit: scale-down;
+  transform: scale(1);
+  width: 80px;
+}
+}
+
 @media screen and (max-width: 500px){
   *, .paymentoption h2{
     font-size: 13px;
