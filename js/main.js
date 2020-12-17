@@ -424,6 +424,7 @@ $('.sticky-item').addClass('moveright')
 			navigation: true
 		});
 	}
+
 $(document).on('click', 'span.play-game', function(){
 	$(this).fadeOut(500);
 	$('#gameFrame').addClass('playNow')

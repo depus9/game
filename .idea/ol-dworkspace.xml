@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cd186f9-5077-4bf7-bf1a-e1039271f249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/game-old.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/dc0322a7dc1b3efb0363b5907e852ae9c1e25f59/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/League_Gothic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/League_Gothic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/League_Gothic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/League_Gothic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/ticker-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Futura.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Futura1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dl-arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/down-arr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/forkme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/main-red-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/army.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/attachment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/back-city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/back-gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/back-vid.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/century.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ch-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ch-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ch-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ch-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ch-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/char-t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/community-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dark-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/everest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer-top-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-17.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-19.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-20.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-21.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-23.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-24.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-25.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-26.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-27.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-28.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-29.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-30.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-31.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-31.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-32.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-33.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-34.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-35.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-36.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-37.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/g-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/game-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon-esewa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ime-pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/khalti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/package.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page-top-bg/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page-top-bg/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page-top-bg/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page-top-bg/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page-top-bg/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/play-game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/play-game2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/play-online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/play.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prabhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/recent-game/big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/review/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/section-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/standard.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tournament/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tournament/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tournament/3DLayer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/full-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.marquee.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.ticker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loved.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/category.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-game.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\xampp\htdocs\game-old\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1llqwxE5MjUunbemlIMQXfIxsFs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cd186f9-5077-4bf7-bf1a-e1039271f249" name="Default Changelist" comment="" />
+      <created>1608182267826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608182267826</updated>
+      <workItem from="1608182269311" duration="4491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
