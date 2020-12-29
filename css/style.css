@@ -2678,7 +2678,7 @@
   
   div#sideBarItem .container-sidebar {
     position: fixed;
-    height: 100vh;
+    height: 100%;
     z-index: 999;
     top: 0;
     left: -90%;
@@ -4136,7 +4136,7 @@
     min-width: 500px;
     max-width: 100%;
 }
-  @media screen and (min-width: 501px){
+  @media screen and (max-width: 500px){
     div#main-workspace {
       min-width: 100%;
       max-width: 100%;
