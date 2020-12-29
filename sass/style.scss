@@ -3508,6 +3508,9 @@ div#fullScreen{
   }
 }
 .img.single-game-image:after {}
+section#game-details{
+  background-color: #1e1d32;
+}
 @media screen and (max-width: 500px){
   *, .paymentoption h2{
     font-size: 13px;
