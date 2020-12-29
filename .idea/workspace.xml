@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd186f9-5077-4bf7-bf1a-e1039271f249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/aa4382f324541d5c51751bb480c87c78aff3e30b/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/travel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/dc0322a7dc1b3efb0363b5907e852ae9c1e25f59/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/dc0322a7dc1b3efb0363b5907e852ae9c1e25f59/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-game.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
