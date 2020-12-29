@@ -4132,4 +4132,14 @@
   .black.jquery-accordion-menu ul ul.submenu li:hover>a {
     border-left-color: #222;
   }
+  div#main-workspace {
+    min-width: 500px;
+    max-width: 100%;
+}
+  @media screen and (min-width: 501px){
+    div#main-workspace {
+      min-width: 100%;
+      max-width: 100%;
+  }
+  }
   
