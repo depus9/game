@@ -182,6 +182,139 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.marquee.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery(function($){
+
+$('input[name="post_title"]').blur(function() {
+    $('.acf-field[data-name="search_title"] input').val($(this).val());
+})
+$('.acf-field[data-name="pubmed_id"] input').on('change',function(){
+    var queryID = $(this).val();
+    if(!queryID){
+        stopSpinner();
+        return;
+    }
+    startSpinner();
+    $.ajax({
+        url: get_ajax_rul.ajaxurl,
+        type: 'POST',
+        dataType: 'json',
+        data: {
+            action: 'search_api_data',
+            query: queryID
+        },
+        success: function(response) {
+
+            var description = "";
+
+            if(typeof response === 'object') {
+                //create the description
+                if(typeof response === 'object') {
+
+                    if(typeof response.source !== 'undefined' && response.source !== '') {
+                        description += response.source + ". ";
+                    }
+
+                    if(typeof response.year !== 'undefined' && response.year !== '') {
+                        description +=  response.year + "; ";
+                    }
+
+                    if(typeof response.volume !== 'undefined' && response.volume !== '') {
+                        description += response.volume;
+                    }
+
+                    if(typeof response.issue !== 'undefined' && response.issue !== '') {
+                        description += "(" + response.issue + ")";
+                    }
+
+                    //add the colon
+                    if(typeof response.volume !== 'undefined' && response.volume !== '' ||
+                        typeof response.issue !== 'undefined' && response.issue !== ''
+                    )
+                    {
+                        description += ": ";
+                    }
+
+                    if(typeof response.pages !== 'undefined' && response.pages !== '') {
+                        description += response.pages;
+                    }
+
+                    description += ". ";
+
+                    if(typeof response.doi !== 'undefined' && response.doi !== '') {
+                        description += "DOI: " + response.doi;
+                    }
+
+                    description = description.trim();
+
+                }
+
+                if(response.title) {
+                    $('input[name="post_title"]').val(response.title);
+                    $('.acf-field[data-name="search_title"] input').val(response.title);
+                    $('#title-prompt-text').hide();
+                }
+
+
+                $('.acf-field[data-name="description"] input').val(description);
+
+                $('.acf-field[data-name="doi"] input').val(response.doi);
+                $('.acf-field[data-name="pii_id"] input').val(response.pii);
+                $('.acf-field[data-name="nlm_unique_id"] input').val(response.nlmuniqueid);
+                $('.acf-field[data-name="study_acronym"] input').val(response.title_acronym);
+                $('.acf-field[data-name="book_name"] input').val(response.bookname);
+                $('.acf-field[data-name="book_title"] input').val(response.booktitle);
+                $('.acf-field[data-name="chapter"] input').val(response.chapter);
+                $('.acf-field[data-name="first_author"] input').val(response.sortfirstauthor);
+                var authors = "";
+                if(response.authors) {
+                    var authorCollection = JSON.parse(response.authors);
+                    authors = authorCollection.toString();
+                }
+                $('.acf-field[data-name="authors"] input').val(authors);
+                $('.acf-field[data-name="publication_date"] input').val(response.pubdate);
+                $('.acf-field[data-name="online_publication_date"] input').val(response.epubdate);
+                $('.acf-field[data-name="sort_pub_date"] input').val(response.sortpubdateformatted);
+                $('.acf-field[data-name="year"] input').val(response.year);
+                $('.acf-field[data-name="edition"] input').val(response.edition);
+                $('.acf-field[data-name="journal_short_name"] input').val(response.source);
+                if(response.fulljournalname) {
+                    $('.acf-field[data-name="journal_congress"] input').val(response.fulljournalname.charAt(0).toUpperCase() + response.fulljournalname.slice(1));
+                }
+
+                $('.acf-field[data-name="issn"] input').val(response.issn);
+                $('.acf-field[data-name="essn"] input').val(response.essn);
+                $('.acf-field[data-name="volume"] input').val(response.volume);
+                $('.acf-field[data-name="issue"] input').val(response.issue);
+                $('.acf-field[data-name="pages"] input').val(response.pages);
+                var pubtype = "";
+                if(response.pubtype) {
+                    var pubtypeCollection = JSON.parse(response.pubtype);
+                    pubtype = pubtypeCollection.toString();
+                }
+
+                $('.acf-field[data-name="publication_type"] input').val(pubtype);
+                $('.acf-field[data-name="medium"] input').val(response.medium);
+                $('.acf-field[data-name="publisher_location"] input').val(response.publisherlocation);
+                $('.acf-field[data-name="publisher"] input').val(response.publishername);
+                if(response.offlabel) {
+                    $('.acf-field[data-name="off_label"] input').prop('checked', true);
+                }
+            }
+            else {
+                alert("Invalid Pubmed ID passed.");
+                stopSpinner();
+                $('.acf-field[data-name="pubmed_id"] input').val('');
+            }
+
+        },
+        complete: function(data) {
+            stopSpinner();
+        }
+    });
+})
+})
+    </script>
     </body>
 </html>
