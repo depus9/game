@@ -429,6 +429,44 @@ $(document).on('click', 'span.play-game', function(){
 	$(this).fadeOut(500);
 	$('#gameFrame').addClass('playNow')
 })
+//search auto complete
+var bestPictures = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    prefetch: 'js/data/films/post_1960.json',
+    remote: {
+        url: 'js/data/films/queries/%QUERY.json',
+        wildcard: '%QUERY'
+    }
+});
+var promise = bestPictures.get();
+console.log(bestPictures);
+$('#gameSearch').typeahead(null, {
+    name: 'best-pictures',
+    display: 'value',
+    source: bestPictures,
+    templates: {
+      empty: [
+        '<div class="empty-message">',
+        'Sorry! Nothing found',
+        '</div>'
+      ].join('\n'),
+      suggestion: Handlebars.compile(`<div class="game-search_card">
+                                    <div class="game-search-card">
+                                       <a href="#"><img class="img-fluid" src="img/g-14.webp" alt=""></a>
+                                    </div>
+                                    <div class="game-search-body">
+                                       <div class="game-title">
+                                          <a href="#">{{value}}</a>
+                                       </div>
+                                      
+                                       <div class="game-view">
+                                        Played <span>{{year}}</span>
+                                    </div>
+                                    </div>
+                                 </div>`)
+    }
+  });
 //menu js
 
 $(document).ready(function(){ jQuery(document).ready(function(){jQuery("#jquery-accordion-menu").jqueryAccordionMenu(); jQuery(".colors a").click(function(){if($(this).attr("class") !="default"){$("#jquery-accordion-menu").removeClass(); $("#jquery-accordion-menu").addClass("jquery-accordion-menu").addClass($(this).attr("class"));}else{$("#jquery-accordion-menu").removeClass(); $("#jquery-accordion-menu").addClass("jquery-accordion-menu");}});}); });
